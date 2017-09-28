@@ -1,0 +1,23 @@
+27-SEPT-JULY-2017 Matthew J. Wolf <matthew.wolf.hpsdr@speciosus.net>
+
+Version 2.2 (Public Release)
+  - Added the "all" commands.
+  - Remove the need to poll the FTDI UART for state of the bits. The program
+    keeps track of the state of the bits.
+  - General clean up of code and comments
+
+Version 2.1
+  - Replaced polling the FIFO with select to wait for an update to the FIFO.
+    Select has a lower CPU impact than polling.
+
+Version 2.0
+  - Added second bit / pin to program
+  - General clean up of code and comments
+   
+Version 1.1
+  - Added error checking 
+  - Added comments
+
+Version 1.0  
+  -Initial version with basic functionality 
+ 
