@@ -1,4 +1,10 @@
-27-SEPT-JULY-2017 Matthew J. Wolf <matthew.wolf.hpsdr@speciosus.net>
+31-MARCH-2018 Matthew J. Wolf <matthew.wolf.hpsdr@speciosus.net>
+
+Version 3.0
+  - Changed source file name.
+  - Added better daemonize logic.
+  - Added system logging.
+  - Added an example systemd services file.
 
 Version 2.2 (Public Release)
   - Added the "all" commands.
@@ -13,11 +19,10 @@ Version 2.1
 Version 2.0
   - Added second bit / pin to program
   - General clean up of code and comments
-   
+
 Version 1.1
-  - Added error checking 
+  - Added error checking
   - Added comments
 
-Version 1.0  
-  -Initial version with basic functionality 
- 
+Version 1.0
+  -Initial version with basic functionality

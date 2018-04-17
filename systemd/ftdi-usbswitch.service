@@ -1,0 +1,14 @@
+[Unit]
+Description=Change Bits of a FTDI USB UART in Bit Bang Mode
+
+[Service]
+Type=forking
+PIDFile="/var/run/ftdi-usbswitch.pid"
+ExecStart=/usr/local/sbin/ftdi-usbswitch
+ExecReload=/bin/kill -TERM $MAINPID
+ExecStop=/bin/kill -TERM $MAINPID
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
